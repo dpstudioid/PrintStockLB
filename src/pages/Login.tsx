@@ -89,13 +89,13 @@ const Login = () => {
       >
         <CardHeader className="text-center space-y-4 pb-2">
           <div
-  className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/25 overflow-hidden"
+  className="flex justify-center"
   style={{ animation: 'logo-bounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both' }}
 >
   <img
     src="/logo.png"
     alt="PrintStock Logo"
-    className="h-10 w-10 object-contain"
+    className="h-24 w-auto object-contain"
   />
 </div>
           <div style={{ animation: 'fade-up 0.5s ease-out 0.4s both' }}>
