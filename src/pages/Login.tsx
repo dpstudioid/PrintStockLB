@@ -89,11 +89,15 @@ const Login = () => {
       >
         <CardHeader className="text-center space-y-4 pb-2">
           <div
-            className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/25"
-            style={{ animation: 'logo-bounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both' }}
-          >
-            <span className="text-2xl font-bold text-primary-foreground">P</span>
-          </div>
+  className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg shadow-primary/25 overflow-hidden"
+  style={{ animation: 'logo-bounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both' }}
+>
+  <img
+    src="/logo.png"
+    alt="PrintStock Logo"
+    className="h-10 w-10 object-contain"
+  />
+</div>
           <div style={{ animation: 'fade-up 0.5s ease-out 0.4s both' }}>
             <CardTitle className="text-2xl font-bold">PrintStock</CardTitle>
             <p className="text-sm italic capitalize text-muted-foreground mt-1">Barang terpantau rapi, stock aman terkendali</p>
