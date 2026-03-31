@@ -93,7 +93,7 @@ const Login = () => {
   style={{ animation: 'logo-bounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both' }}
 >
   <img
-    src="/logo.png"
+    src="/public/logo.png"
     alt="PrintStock Logo"
     className="h-24 w-auto object-contain"
   />
